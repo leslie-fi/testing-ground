@@ -1,0 +1,7 @@
+{
+  "restartable": "rs",
+  "watch": ["./**/*.js", ".env"],
+  "ext": "js,json",
+  "ignore": ["dist/**/*.spec.js"],
+  "exec": "node dist/index.js"
+}
